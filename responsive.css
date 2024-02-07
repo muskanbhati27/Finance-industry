@@ -18,7 +18,16 @@
   }
   /* zero header section */
   /* header section */
-
+  #carousel .owl-nav button {
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+    width: 0.4em;
+    height: 2em;
+  }
   .header_ul {
     margin-left: 0em;
     display: flex;
@@ -79,6 +88,31 @@
     margin: 1em 0;
   }
   /* services section */
+
+  /* contact section */
+  .contact_coursel {
+    padding-left: 0em;
+    width: 100%;
+  }
+  .contact_end_div {
+    margin-top: 1em;
+  }
+  .owl-carousel .owl-item img {
+    display: block;
+    width: 16%;
+  }
+  #contact .owl-nav button.owl-prev {
+    left: 19em;
+    top: 10.2em;
+  }
+  #contact .owl-nav button.owl-next {
+    top: 10.2em;
+  }
+  .contact_btn button {
+    width: 45%;
+  }
+
+  /* contact section */
 
   /* footer section */
   .footer_section {
@@ -148,6 +182,7 @@
   }
   /* icon slider */
 }
+
 @media (max-width: 767px) {
   /* zero header section */
   .zero_header_div1_divs p {
@@ -291,6 +326,33 @@
   }
 
   /* footer section */
+  /* contact section */
+  #contact .owl-nav button.owl-prev {
+    left: 9.4em;
+    top: 12em;
+  }
+  #contact .owl-nav button.owl-next {
+    top: 12em;
+  }
+  .contact_Section {
+    height: 95vh;
+
+    margin: 4em 0;
+  }
+  .contact_div2 {
+    margin: 3.4em 0;
+  }
+  .contact_div1 {
+    margin: -1.5em 0;
+    padding: 0em 0;
+  }
+  .contact_end_div {
+    margin-top: 2em;
+  }
+  .contact_btn button {
+    height: 2.4em;
+  }
+  /* contact section */
   /* end footer section */
   .end_footer_section {
     padding: 2em 0;

@@ -50,6 +50,7 @@
         </div>
       </div>
     </section>
+
     <!-- Zero header section -->
     <!-- header section -->
     <section class="header_section">
@@ -259,8 +260,109 @@
     <section class="contact_Section">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6"></div>
-          <div class="col-lg-6"></div>
+          <div class="col-lg-5 col-md-12 contact_div1">
+            <div class="contact_div1_div">
+              <p>We are always ready</p>
+              <h4>Request a call back</h4>
+              <form action="">
+                <div class="divider_form">
+                  <input type="text" placeholder="Full Name" name="" id="" />
+                  <input
+                    type="email "
+                    placeholder="Email Address"
+                    name=""
+                    id=""
+                  />
+                </div>
+                <input placeholder="Subject" type="text" class="subject_form" />
+                <textarea
+                  name=""
+                  id="input"
+                  class="form-control"
+                  rows="3"
+                  placeholder="Message"
+                  required="required"
+                ></textarea>
+                <div class="contact_btn">
+                  <button type="button" class="btn btn-primary">
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="owl-slider">
+              <div id="contact" class="owl-carousel contact_coursel">
+                <div class="item">
+                  <div class="contact_div2">
+                    <div class="contact_Slider_content">
+                      <i class="fa-solid fa-quote-left"></i>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Consequuntur enim obcaecati dolor explicabo,
+                        deserunt, unde sint vero dolorum ex, ab quasi sapiente
+                        debitis. Aliquam similique quae nihil asperiores, minus
+                        blanditiis!
+                      </p>
+                    </div>
+                    <div class="contact_end_div">
+                      <img src="image/client.png" class="slider_img" alt="" />
+
+                      <div class="text-white">
+                        <h4>Gabriel Denis</h4>
+                        <p>Chairman, OKT</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="contact_div2">
+                    <div class="contact_Slider_content">
+                      <i class="fa-solid fa-quote-left"></i>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Consequuntur enim obcaecati dolor explicabo,
+                        deserunt, unde sint vero dolorum ex, ab quasi sapiente
+                        debitis. Aliquam similique quae nihil asperiores, minus
+                        blanditiis!
+                      </p>
+                    </div>
+                    <div class="contact_end_div">
+                      <img src="image/client.png" class="slider_img" alt="" />
+
+                      <div class="text-white">
+                        <h4>Gabriel Denis</h4>
+                        <p>Chairman, OKT</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="contact_div2">
+                    <div class="contact_Slider_content">
+                      <i class="fa-solid fa-quote-left"></i>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Consequuntur enim obcaecati dolor explicabo,
+                        deserunt, unde sint vero dolorum ex, ab quasi sapiente
+                        debitis. Aliquam similique quae nihil asperiores, minus
+                        blanditiis!
+                      </p>
+                    </div>
+                    <div class="contact_end_div">
+                      <img src="image/client.png" class="slider_img" alt="" />
+
+                      <div class="text-white">
+                        <h4>Gabriel Denis</h4>
+                        <p>Chairman, OKT</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -462,6 +564,39 @@
     </script>
     <script>
       jQuery("#carousel").owlCarousel({
+        autoplay: false,
+        rewind: true /* use rewind if you don't want loop */,
+        margin: 20,
+        /*
+  animateOut: 'fadeOut',
+  animateIn: 'fadeIn',
+  */
+        responsiveClass: true,
+        autoHeight: true,
+        autoplayTimeout: 7000,
+        smartSpeed: 800,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+
+          600: {
+            items: 1,
+          },
+
+          1024: {
+            items: 1,
+          },
+
+          1366: {
+            items: 1,
+          },
+        },
+      });
+    </script>
+    <script>
+      jQuery("#contact").owlCarousel({
         autoplay: false,
         rewind: true /* use rewind if you don't want loop */,
         margin: 20,
